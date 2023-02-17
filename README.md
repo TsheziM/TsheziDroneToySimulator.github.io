@@ -1,5 +1,5 @@
 # TsheziDroneToySimulator.github.io
-Drone Toy Simulator
+<H1> Drone Toy Simulator </H1>
 
 This is my very first game built using Java. It was an excellent journey to travel.
 Gaming is so programming challenging and skill enhancing.
