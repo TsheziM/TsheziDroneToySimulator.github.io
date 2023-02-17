@@ -1,0 +1,15 @@
+Test automation
+
+1. Through unit testing mocked configurations the game can run.
+
+2. Through mocking out the configurations an automation can create.
+
+3. Tack Through the 10 x10 grid and the operating commands the drone will understand with exact definition of it's current location in the grid.
+
+4. The primary command is placed command state before it there's no command that will be executable.
+
+5. THrough loops set a limiting range so the drone only moves within the grid.
+
+6. The drone is limited to move in the context of the 10 x 10 grid. 
+    There's no other command that can execute without the drone bing placed first.
+    It only enforces that the user place the drone before executing any other move.
