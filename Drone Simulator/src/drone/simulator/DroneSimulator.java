@@ -18,58 +18,6 @@ public class DroneSimulator {
     static int y=0;
     //static String initialPosition= x+","+ y +","+ F;
    // static String currentPosition;
-    //static String F = "N";
-    
- /*   static String checkAction()
-    {
-        for(int a = 0; a < 10; a++)
-        {
-            String line = null;
-            
-            switch(a){
-                case 0:
-                    line = board[0] + board[1] + board[2];
-                    break;
-                    
-                case 1:
-                    line = board[3] + board[4] + board[5];
-                    break;
-                case 2:
-                    line = board[6] + board[7] + board[8];
-                    break;
-                case 3:
-                    line = board[0] + board[3] + board[6];
-                    break;
-                    
-                case 4:
-                    line = board[1] + board[4] + board[7];
-                    break;
-                case 5:
-                    line = board[2] + board[5] + board[8];
-                    break;
-                case 6:
-                    line = board[0] + board[4] + board[8];
-                    break;
-                case 7:
-                    line = board[2] + board[4] + board[6];
-                    break;       
-            }
-            if (line.equals("XXX")) {
-                return "X";
-            }
-            
-            else if (line.equals("OOO")) {
-                return "O";
-            }
-        }
-        for (int a = 0; a < 9; a++) {
-            if (Arrays.asList(board).contains(
-                    String.valueOf(a + 1))) {
-                break;
-            }
-    }
-   */ 
-    
     static void printBoard()
     {
         System.out.println("|-----|---|---|---|---|---|---|---|---|---|----|");
@@ -243,10 +191,8 @@ public class DroneSimulator {
                 System.out.println("Initially the Drone was at:"+(board.length-1));
                 System.out.println("Currently the Drone is at ");
         
-        String move = "UDDLLRUUUDUURUDDUULLDRRRR";
+        String move = "UUUDDLLRRUR";
         finalPosition(move);
-       // printBoard();
-          
             }
                 
             }
@@ -264,6 +210,7 @@ public class DroneSimulator {
            // numInput will take input from user like from 1 to 100.
            // If it is not in range from 1 to 100.
            // then it will show you an error "Invalid input."
+            
             try {
                 numInput = in.nextInt();
                 if (!(board.length > 0 && board.length <= 99)) {
